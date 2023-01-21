@@ -97,3 +97,39 @@ body {
 .card-btn:hover {
   background-color: hsl(212, 21%, 14%);
 }
+
+@media screen and (max-width: 600px) {
+  .card-component {
+    margin: 2rem auto;
+    flex-direction: column;
+    width: 30rem;
+    height: 35rem;
+    padding: 1rem;
+    column-gap: 0px;
+  }
+  .card-img {
+    margin: 0;
+    width: 100%;
+    height: 30%;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .card-img img {
+    width: 100%;
+    object-fit: fill;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 0px;
+  }
+
+  .card-details {
+    margin: 0;
+    height: 70%;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .card-btn {
+    margin-bottom: 0;
+  }
+}

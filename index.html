@@ -26,7 +26,13 @@
   <body>
     <div class="card-component">
       <div class="card-img">
-        <img src="images/image-product-desktop.jpg" alt="perfume-image" />
+        <picture>
+          <source
+            media="(max-width:600px)"
+            srcset="images/image-product-mobile.jpg"
+          />
+          <img src="images/image-product-desktop.jpg" alt="perfume-image" />
+        </picture>
       </div>
       <div class="card-details">
         <div class="card-label">perfume</div>
